@@ -11,10 +11,10 @@
     height: 58px;
 }
 
-.nav-content li ol a {
+.nav-content > ol > a {
     text-decoration: none;
     text-emphasis: none;
-    color: white;
+    color: white !important;
 }
 
 .nav-content{
@@ -26,12 +26,13 @@
     gap: 16px;
     align-items: center;
     cursor: pointer;
-    transition: 100ms ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
-.nav-content > ol > a:hover{
-    transition: 500ms;
+.nav-content > ol:hover{
+    transition: 0.3s;
     text-decoration: underline;
+    color: white;
     transform: scale(1.020);
 }
 
