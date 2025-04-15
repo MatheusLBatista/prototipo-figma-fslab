@@ -45,6 +45,14 @@
 
 .info-content{
     position: absolute;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
     background-color: white;
     color: #373736;
+    padding: 8px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
 }
