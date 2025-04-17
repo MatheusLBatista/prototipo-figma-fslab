@@ -88,8 +88,8 @@
     width: 55%;
 }
 
-.texto-quem-somos h3 {
-    padding-bottom: 12px;
+.texto-quem-somos h3, .fac h3 {
+    padding-bottom: 16px;
 }
 
 .texto-quem-somos p {
@@ -100,4 +100,18 @@
 .youtube-video {
     width: 40%;
     margin-left: auto;
+}
+
+.fac {
+    background-color: #EEECEC;
+    padding: 64px 32px;
+}
+
+.fac-conteudo {
+    display: flex;
+    flex-direction: row;
+    background-color: #D9D9D9;
+    padding: 10px;
+    justify-content: space-between;
+    margin-bottom: 8px;
 }
