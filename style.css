@@ -88,8 +88,8 @@
     width: 55%;
 }
 
-.texto-quem-somos h3, .fac h3 {
-    padding-bottom: 16px;
+.texto-quem-somos h3, .fac h3, .equipe h3 {
+    padding-bottom: 24px;
 }
 
 .texto-quem-somos p {
@@ -114,4 +114,55 @@
     padding: 10px;
     justify-content: space-between;
     margin-bottom: 8px;
+}
+
+.equipe{
+    padding: 64px 32px;
+}
+
+.card-equipe {
+    background-color: gray;
+    width: 280px;
+    height: 96px;
+    padding: 32px;
+    display: inline-flex;
+    align-content: space-between;
+    flex-direction: row;
+    border-radius: 8px;
+    margin-bottom: 32px;
+}
+
+.card-equipe img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    align-self: center;
+}
+
+.equipe-texto {
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+    text-align: end;
+    line-height: 24px;
+    gap: 4px;
+}
+
+.fotos {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-pic {
+    align-self: center;
+    max-width: 85%;
+    padding: 16px;
+}
+
+.profile-pic img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 4px;
 }
