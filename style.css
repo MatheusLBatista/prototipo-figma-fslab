@@ -4,6 +4,11 @@
     font-family: "Quicksand", sans-serif;
 }
 
+span {
+    border-bottom: 2px solid black;
+    padding-bottom: 2px;
+}
+
 .nav-bar {
     position: absolute;
     width: 100%;
@@ -67,7 +72,7 @@
     padding: 40px 32px;
     max-width: fit-content;
     gap: 16px;
-    background-color: gray;
+    background-color: #EEECEC;
 }
 
 .projetos img {
@@ -76,7 +81,7 @@
 
 .quem-somos {
     display: flex;
-    background-color: lightgray;
+    background-color: #F3F3F3;
     justify-content: space-between;
     flex-direction: row;
     align-items: flex-start;
@@ -118,10 +123,11 @@
 
 .equipe{
     padding: 64px 32px;
+    background-color: #F3F3F3;
 }
 
 .card-equipe {
-    background-color: gray;
+    background-color: #EEECEC;
     width: 280px;
     height: 96px;
     padding: 32px;
@@ -165,4 +171,28 @@
     width: 80px;
     border-radius: 50%;
     margin: 4px;
+}
+
+.rodape {
+    height: 178px;
+    background-color: #575756;
+    align-content: center;
+}
+
+.conteudo-rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 96px;
+}
+
+#ifro-logo {
+    width: 18%;
+    height: 18%;
+}
+
+#fslab-logo{
+    width: 15%;
+    height: 15%;
 }
